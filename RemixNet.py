@@ -86,7 +86,7 @@ import OSC
         
 class OSCEndpoint:
         
-    def __init__(self, remoteHost='localhost', remotePort=9001, localHost='', localPort=9000, ):
+    def __init__(self, remoteHost='localhost', remotePort=9002, localHost='', localPort=9900, ):
         """
         This is the main class we the use as a nexus point in this module.
 
@@ -96,7 +96,7 @@ class OSCEndpoint:
 
         - localHost and localPort define the address that we are
           listening to for incoming OSC packets.  By default, we are
-          listening on all interfaces with port 9000.
+          listening on all interfaces with port 9001.
         
         By default we define and set callbacks for some utility
         addresses:
